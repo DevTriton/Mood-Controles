@@ -42,3 +42,31 @@ nav a {
 .cabeca {
     padding: 5px;
 }
+
+.texto {
+    width: 900px;
+    margin: 50px auto;
+    padding: 10px 30px 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 40px;
+}
+main {
+    padding: 20px auto;
+    box-sizing: border-box;
+}
+main h2{
+    text-align: center;
+    color: white;
+    text-shadow: -1px 1px 3px black;
+    font-family: "Heebo", sans-serif;
+    font-size: 30px;
+    padding: 10px 10px 40px;
+    top: 40px;
+}
+
+main p{
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px 1px 3px black;
+}
