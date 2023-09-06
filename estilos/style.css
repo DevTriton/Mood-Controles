@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap");
 
 * {
-    font-family: arial;
+    font-family: "Heebo", sans-serif;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 header{
-    background-color: rgba(255, 255, 255, 0.075);
+    background-color: rgba(0, 0, 0, 0.082);
     height: 90px;
     margin: 0 auto;
  }
@@ -36,9 +36,54 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-family: "Heebo", sans-serif;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: -1px 1px 3px black;
 }
 
 .cabeca {
     padding: 5px;
+}
+
+.spanInfo {
+    color: white;
+    font-size: 30px;
+    font-family: "heebo", sans-serif;
+    text-shadow: -1px 1px 3px black;
+}
+
+.spanInfo:hoover {
+    color: aqua;
+    transition: 1s;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: auto 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.produtos a{
+    color: white;
+    text-decoration: none;
+}
+
+.produtos h2{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-shadow: -1px 1px 2px black;
 }
