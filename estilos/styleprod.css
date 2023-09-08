@@ -12,27 +12,30 @@ body {
     overflow: hidden;
     height: 100vh;
     max-width: auto;
-    object-fit: contain;    
+    object-fit: contain;
 }
 
-header{
+header {
     background-color: rgba(0, 0, 0, 0.082);
     height: 90px;
     margin: 0 auto;
- }
+}
+
 nav {
     position: absolute;
     right: 80px;
     top: 40px;
-    color: black; 
+    color: black;
 }
+
 nav li {
     display: inline;
     margin: 0px 0px 0px 15px;
 }
+
 nav a {
-    font-size: 20px;  
-    color: white;  
+    font-size: 20px;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-family: "Heebo", sans-serif;
@@ -43,7 +46,7 @@ nav a {
     padding: 5px;
 }
 
-main h2{
+main h2 {
     text-align: center;
     color: white;
     text-shadow: -1px 1px 3px black;
@@ -65,7 +68,40 @@ main {
     border-radius: 40px;
 }
 
-.tabela th{
+.tabela th {
     vertical-align: top;
-    
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: auto 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.produtos a {
+    color: white;
+    text-decoration: none;
+}
+
+.produtos h2 {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-shadow: -1px 1px 2px black;
+    padding: 10px 10px;
 }
