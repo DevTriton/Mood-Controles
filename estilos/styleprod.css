@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap");
-
 * {
-    font-family: "Heebo", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -38,38 +36,17 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-family: "Heebo", sans-serif;
-    text-shadow: -1px 1px 3px black;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: -2px 1px 2px black;
 }
 
 .cabeca {
     padding: 5px;
 }
 
-main h2 {
-    text-align: center;
-    color: white;
-    text-shadow: -1px 1px 3px black;
-    font-size: 30px;
-}
-
 main {
     padding: 20px auto;
     box-sizing: border-box;
-}
-
-.tabela {
-    width: 1400px;
-    height: 650px;
-    margin: 50px auto;
-    padding: 10px 30px 50px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.568);
-    border-radius: 40px;
-}
-
-.tabela th {
-    vertical-align: top;
 }
 
 .produtos {
@@ -102,6 +79,59 @@ main {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    text-shadow: -1px 1px 2px black;
+    text-shadow: -2px 1px 2px black;
     padding: 10px 10px;
+}
+
+.content {
+    height: calc(100vh - 90px);
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.left-side h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: -2px 1px 2px black;
+}
+
+.left-side p {
+    color: white;
+    text-shadow: -2px 1px 2px black;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.left-side span{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-shadow: -2px 1px 2px black;
+    font-weight: 500;
+}
+
+.left-side a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(2, 104, 163);
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.right-side{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
