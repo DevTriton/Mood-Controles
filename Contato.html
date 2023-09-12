@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Controles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/contato.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+</head>
+
+<body>
+    <div class="grid-all"></div>
+    <header>
+        <img src="assets/logo.png" width="175px" height="90px" class="cabeca">
+        <nav>
+            <ul>
+                <li><a class="cabeca" href="index.html">Home</a></li>
+                <li><a class="cabeca" href="produtos.html">Produtos</a></li>
+                <li><a class="cabeca" href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">
+                Nome e sobrenome
+                <input type="text" id="nomesobrenome" class="input-padrao" required
+                    placeholder="seu nome completo aqui" />
+            </label>
+
+            <label for="email">Email
+                <input type="email" id="email" class="input-padrao" required placeholder="Ex:seuemail@gmail.com" />
+            </label>
+
+            <label for="telefone">Telefone
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(11)47411978" />
+            </label>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" placeholder="deixe sua sugestão aqui" class="redondinho"></textarea>
+            <fieldset>
+                <span class="pbonito">
+                    <legend>como gostaria de receber nosso Contato?</legend>
+                </span>
+
+                <label for="radio-email" class="checkbox"><input type="radio" name="Contato" value="email"
+                        id="radio-email" checked />Email</label>
+
+                <label for="radio-telefone" class="checkbox"><input type="radio" name="Contato" value="telefone"
+                        id="radio-telefone" />Telefone</label>
+
+                <label for="radio-Whatsapp" class="checkbox"><input type="radio" name="Contato" value="Whatsapp"
+                        id="radio-whatsapp" />Whatsapp</label>
+            </fieldset>
+
+            <legend>
+                <select class="slct">
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+                Qual horario prefere ser atendido?
+            </legend>
+
+            <label><input type="checkbox" /> Gostaria de receber novidades por
+                email?</label>
+
+            <input class="enviar" type="submit" value="Enviar" />
+        </form>
+        </div>
+    </main>
+</body>
+
+</html>
